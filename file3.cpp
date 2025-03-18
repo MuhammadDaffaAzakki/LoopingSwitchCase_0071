@@ -8,3 +8,14 @@ float LuasPersegiPanjang(float p,float l){
 float LuasLingkaran(float r){
     return 3.14 * r * r;
 }
+
+int main(){
+    int pilihan;
+    float panjang, lebar, jejari;
+
+    do{
+        cout << "======Menu======" << endl;
+        cout << "1. Menghitung Luas Persegi Panjang" << endl;
+        cout << "2. Menghitung Luas Lingkaran" << endl;
+        cout << "3. Exit" << endl;
+        cin >> pilihan;
